@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Flexbox</title>
+    <style>
+        * {
+            margin: 0;
+            border: 1px solid red;
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+        }
+
+        section>article {
+            flex-basis: 0em;
+            flex-grow: 1;
+        }
+
+        /* section>article:last-child {
+            flex-basis: 80%;
+        } */
+        section>article:first-child {
+            flex-grow: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum sit, quisquam animi fuga
+            ratione sapiente quia soluta perspiciatis, maiores excepturi enim esse blanditiis deleniti? Quidem alias ab
+            suscipit maxime.
+            Necessitatibus quasi dolorem ad voluptatem magnam sequi et consectetur provident sint omnis accusamus hic
+            voluptatum ipsum, possimus molestias doloremque saepe eveniet nam, dolores nemo officiis fugiat amet neque.
+            Alias, a?
+            Magni, beatae! Delectus iusto aliquid harum quia minus accusantium facere molestias nisi voluptate sed
+            dolorem veniam, omnis tempore aut quasi iste deserunt, eum nesciunt consectetur repellendus possimus at
+            vitae ad.
+            Hic labore quas sunt minus nisi veniam consequatur veritatis sit officiis dignissimos voluptates ratione
+            earum nihil, doloribus sequi, repellat inventore accusantium delectus quo eum! Animi quasi quae deserunt
+            laboriosam dicta!
+            Impedit quidem laudantium distinctio ut similique, sunt numquam nisi. Cumque incidunt eveniet laudantium
+            velit. Totam porro assumenda, iure minus, cumque eum esse saepe quos illo eveniet officia, deleniti nostrum
+            praesentium. </article>
+        <article>Lorem ipsum dolor </article>
+        <article>lorem</article>
+    </section>
+</body>
+
+</html>

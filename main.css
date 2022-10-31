@@ -1,0 +1,54 @@
+/* main.css */
+*{
+    margin: 0px;
+}
+/* selecteur d'element*/
+main{
+    color:darkblue;
+}
+/* pseudo-class */
+li:first-child{
+    background-color: bisque;
+}
+li:nth-child(2){
+    background-color: aquamarine
+}
+/* ordre de définition des est important ici */
+a:link{
+    font-size: small;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    font-size: larger;
+}
+a:active{
+    font-size: large;
+    color: rgba(89, 136, 89, 0.799);
+}
+/* pseudo-element */
+footer::before{
+    content: "Footer : ";
+}
+h2::first-letter{
+    font-size: 45px;
+}
+/* selecteur d'attribut */
+a[href^="https://"]{
+    font-size: xx-small;
+}
+
+/* marge */
+body{
+    /* 1em = 16px */
+    margin: 0.5em;
+}
+ul{
+    padding: 0px;
+}
+li{
+    border: 0.1em solid #000000;
+    padding: 1em;
+    list-style-type: none;
+}
